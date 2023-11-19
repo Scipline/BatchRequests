@@ -1,3 +1,12 @@
+<!--
+ * @Author       : Scipline
+ * @Since        : 2023-11-17 06:42:12
+ * @LastEditor   : Scipline
+ * @LastEditTime : 2023-11-19 20:14:19
+ * @FileName     : README.md
+ * @Description  : 
+-->
+[English](./README_en.md)
 ## 1. 简介
 
 批量通过邮箱和验证码获取APIKEY
