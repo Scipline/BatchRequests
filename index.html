@@ -1,0 +1,34 @@
+<!--
+ * @Author       : XiaoZong
+ * @Since        : 2023-11-17 02:36:45
+ * @LastEditor   : XiaoZong
+ * @LastEditTime: 2023-11-17 04:15:22
+ * @FileName     : index.html
+ * @Description  : 
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>批量获取APIKEY</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <h1 align="center">邮件地址批量请求</h1>
+    <textarea id="email-input" placeholder="请输入邮件地址，每行一个"></textarea>
+    <button id="get-codes-btn">获取验证码</button>
+    <table>
+      <thead>
+        <tr>
+          <th>邮件地址</th>
+          <th>验证码</th>
+        </tr>
+      </thead>
+      <tbody id="code-table-body"></tbody>
+    </table>
+    <button id="submit-btn">提交</button>
+    <textarea id="result-textarea" placeholder="结果显示区域"></textarea>
+    <script src="js/script.js"></script>
+  </body>
+</html>

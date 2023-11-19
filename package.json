@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "async-mutex": "^0.4.0",
+    "cors": "^2.8.5",
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "name": "chatgptfaucet",
+  "version": "1.0.0",
+  "description": "Batch get free APIKey",
+  "main": "main.js",
+  "scripts": {
+    "main": "node main.js"
+  },
+  "author": "Scipline",
+  "license": "ISC"
+}
