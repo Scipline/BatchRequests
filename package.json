@@ -4,12 +4,11 @@
   "description": "Batch request faucet apikey",
   "main": "main.js",
   "dependencies": {
-    "express": "^2.5.0",
     "cors": "^2.8.5",
+    "express": "^4.18.2",
     "http-proxy": "^1.18.1",
     "http-proxy-middleware": "^2.0.6"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
