@@ -4,6 +4,6 @@ services:
     build: .
     ports:
       - "3004:3004"
-    command: npm run main
+    command: npm run start
     volumes:
       - ./index.html:/usr/src/app/index.html
