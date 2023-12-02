@@ -35,4 +35,4 @@ Usage:
 
 ## 6. Additional Information
 
-Logic for retrieving individual emails can be found in the `./python/Faucet.py` file.  
+Logic for retrieving individual emails can be found in the `./core/Faucet.py` file.  

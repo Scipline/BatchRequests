@@ -34,4 +34,4 @@
 
 ## 6.其他
 
-单个邮箱获取逻辑可看`./python/Faucet.py`文件
+单个邮箱获取逻辑可看`./core/Faucet.py`文件

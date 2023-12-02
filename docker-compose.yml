@@ -1,0 +1,9 @@
+version: '3'
+services:
+  webapp:
+    build: .
+    ports:
+      - "3004:3004"
+    command: npm run main
+    volumes:
+      - ./index.html:/usr/src/app/index.html
