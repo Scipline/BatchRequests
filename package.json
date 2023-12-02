@@ -1,16 +1,30 @@
 {
+  "name": "batchrequests",
+  "version": "2.5.0",
+  "description": "Batch request faucet apikey",
+  "main": "main.js",
   "dependencies": {
-    "async-mutex": "^0.4.0",
+    "express": "^2.5.0",
     "cors": "^2.8.5",
+    "http-proxy": "^1.18.1",
     "http-proxy-middleware": "^2.0.6"
   },
-  "name": "chatgptfaucet",
-  "version": "1.0.0",
-  "description": "Batch get free APIKey",
-  "main": "main.js",
+  "devDependencies": {},
   "scripts": {
-    "main": "node main.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Scipline",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scipline/BatchRequests.git"
+  },
+  "keywords": [
+    "Batch",
+    "Visuable"
+  ],
+  "author": "Sciplien",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Scipline/BatchRequests/issues"
+  },
+  "homepage": "https://github.com/Scipline/BatchRequests#readme"
 }
